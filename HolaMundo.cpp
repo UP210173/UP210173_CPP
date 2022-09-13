@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    cout<< "Hola mundo"<< endl;
+    cout<< "Hola mundos"<< endl;
     get chat();
     return 0;
 }
