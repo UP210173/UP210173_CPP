@@ -7,7 +7,13 @@
 #include<iostream> //Libreria para el manejo de entradas y salida de la pantalla
 #include<stdio.h> //Libreria para el uso de printf y scanf
 
+#define PI 3.1416
+
+
 using namespace std; //Para los nombre setsandar que maneja el cin y cout
+
+const float pi = 3.1415;
+int a = 45;
 
 int main() //Regresa un valor entero
 {
@@ -21,6 +27,8 @@ int main() //Regresa un valor entero
     cout<<"El tamaño del entero es "<< sizeof(entero) << "bytes" <<endl;
     cout<<"El caracter char es: " <<endl;
     cout<<"El tamaño del char es "<< sizeof(caracter) << "bytes" <<endl;
+    cout<<"El valor de PI es: "<< PI <<endl;
+    cout<<"El valor de pi es: "<< pi <<endl;
 
    get char(); //Para correr el programa de windows
    return 0;
