@@ -4,8 +4,8 @@
     Descripción: Muestra lod diferentes tipos de datos en c++
 */
 
-#include<iostream> //Libreria para el manejo de entradas y salida de la pantalla
-#include<stdio.h> //Libreria para el uso de printf y scanf
+#include <iostream> //Libreria para el manejo de entradas y salida de la pantalla
+#include <stdio.h> //Libreria para el uso de printf y scanf
 
 #define PI 3.1416
 
@@ -30,6 +30,6 @@ int main() //Regresa un valor entero
     cout<<"El valor de PI es: "<< PI <<endl;
     cout<<"El valor de pi es: "<< pi <<endl;
 
-   get char(); //Para correr el programa de windows
+
    return 0;
 }
