@@ -24,9 +24,9 @@ int main() //Regresa un valor entero
 
     cout<<"Este programa muestra los tipos de datos \n";
     cout<<"El numero entero es: "<< entero<< endl;
-    cout<<"El tamaño del entero es "<< sizeof(entero) << "bytes" <<endl;
-    cout<<"El caracter char es: " <<endl;
-    cout<<"El tamaño del char es "<< sizeof(caracter) << "bytes" <<endl;
+    cout<<"El tamaño del entero es "<< sizeof(entero) << " bytes" <<endl;
+    cout<<"El caracter char es: " <<caracter<<endl;
+    cout<<"El tamaño del char es "<< sizeof(caracter) << " bytes" <<endl;
     cout<<"El valor de PI es: "<< PI <<endl;
     cout<<"El valor de pi es: "<< pi <<endl;
 
