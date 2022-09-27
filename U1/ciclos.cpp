@@ -10,10 +10,10 @@ int main()
         {
             s1 = s1 + i;
         }
-            else
-            {
-                s2 = s2 + i;
-            }
+        else
+        {
+            s2 = s2 + i;
+        }
         total = s1 + s2;
     }
     printf("La suma de pares es: %d \n", s1);
