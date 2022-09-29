@@ -53,4 +53,16 @@ int main()
 ```
 ![Mi meta es igual que la del bicho](/U1/Imagenes/cr7.jpg)  
 
-##  <center>*SIUUUUUUUUU*  </center>
+##  <center>*SIUUUUUUUUU*  </center>  
+
+<div aling="center">
+<img alt="sherk" src='U1/Imagenes/mark.jpg' width='400'>
+</div>  
+
+
+## Tabla  
+| Color | Código |  
+| ----- | ------- |  
+| Rojo  | #FF0000 |  
+| Azul  | #0000FF |  
+
