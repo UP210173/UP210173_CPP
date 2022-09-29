@@ -1,9 +1,9 @@
-# <center>UP210173_CPP
-> # <center> _**Bienvenido a Programación C++**_
+# <center>UP210173_CPP  </center>
+> # <center> _**Bienvenido a Programación C++**_  </center>
 
- # <center>  **Cristian Morales**  
-## <center> _**Universidad Politécnica de Aguascalientes**_  
-### <center>*"El genio se hace con 1% de talento y un 99% de trabajo"*
+ # <center>  **Cristian Morales**  </center>
+## <center> _**Universidad Politécnica de Aguascalientes**_  </center>
+### <center>*"El genio se hace con 1% de talento y un 99% de trabajo"*  </center>
 ---  
 ***  
 1. *Lógica*
@@ -53,4 +53,4 @@ int main()
 ```
 ![Mi meta es igual que la del bicho](/U1/Imagenes/cr7.jpg)  
 
-## <center> *SIUUUUUUUUU*
+##  <center>*SIUUUUUUUUU*  </center>
