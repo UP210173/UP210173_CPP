@@ -10,13 +10,40 @@ using namespace std;
 
 int main()
 {
-    /*Ciclo For*/
+    /*Ciclo For Ascendente*/
     int n = 5;
+    int r;
+    cout << "Tabla de multiplicar en forma ascendente" << endl;
     for (int i = 1; i <= 10; i++)
     {
-
-        int r = n * i;
-        cout << n << "x" << i << "=" << r << endl;
+        r = n * i;
+        cout << n << " x " << i << " = " << r << endl;
     }
+    cout << endl;
+    cout << "Tabla de multiplicar en forma descendente" << endl;
+    for (int i = 10; i >= 1; i--)
+    {
+        //Ciclo For descendente
+        int r = n * i;
+        cout << i << " x " << n << " = " << r << endl;
+    }
+    cout<<endl;
+    cout << "Tabla de multiplicar con while" << endl;
+    int j = 1;
+    while(j<=10)
+    {
+        //Ciclo While
+        cout << n << " x " << j << " = " << n*j << endl;
+        j=j+1;
+    }
+    cout<<endl;
+    cout << "Tabla de multiplicar con while forma descendente" << endl;
+    while(j > 0)
+    {
+        //Ciclo While
+        cout << j << " x " << n << " = " << n*j << endl;
+        j--;
+    }
+    
     return 0;
 }
