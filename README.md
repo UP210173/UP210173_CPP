@@ -1,6 +1,6 @@
 <h1 align="left"><strong>
 <div align="right">Cristian
-<img alt="C++" height="50" src="U1/Imagenes/ball.jpg"></img>
+<img alt="C++" height="50" src="U1/Imagenes/ball.jpg">
 </div>
 
 <h1 align="center"><strong><font face="Century Gothic"> ¡Welcome to the repository of Cristian! </font></strong></h1>
@@ -11,7 +11,7 @@ C++ programming   </font></strong></h2>
 <h2 align="center"><strong><font face="Times New Roman"> Polytechnic University of Aguascalientes </font></strong></h2>
 
 <div align="center"> 
-<img alt="C++" height="90" src="U1/Imagenes/logo.png"></img>
+<img alt="C++" height="90" src="U1/Imagenes/logo.png">
 </div>
 
 <br> 
