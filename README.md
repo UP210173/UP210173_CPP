@@ -9,9 +9,7 @@ C++ programming   </font></strong></h2>
 
 <h3 align="center"><strong><font face="Times New Roman"> Polytechnic University of Aguascalientes </font></strong></h3>
 
-<div align="center"> 
-<img alt="C++" height="90" src="U1/Imagenes/logo.png">
-</div>
+![Mi meta es igual que la del bicho](/U1/Imagenes/logo.png)  
 
 <br> 
 <h3 align="center"><strong><font face="Times New Roman"> El genio se hace con 1% de talento y un 99% de trabajo </font></strong></h3>
