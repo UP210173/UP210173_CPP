@@ -9,8 +9,6 @@ C++ programming   </font></strong></h2>
 
 <h3 align="center"><strong><font face="Times New Roman"> Polytechnic University of Aguascalientes </font></strong></h3>
 
-![Mi meta es igual que la del bicho](/U1/Imagenes/logo.png)  
-
 <br> 
 <h3 align="center"><strong><font face="Times New Roman"> El genio se hace con 1% de talento y un 99% de trabajo </font></strong></h3>
 
@@ -43,4 +41,5 @@ C++ programming   </font></strong></h2>
 ***  
 
 >[Git clone of my repository ](https://www.realmadrid.com/)https://github.com/UP210173/UP210173_CPP.git
+![Mi meta es igual que la del bicho](/U1/Imagenes/logo.png)  
 
