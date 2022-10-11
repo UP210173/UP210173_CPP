@@ -10,9 +10,9 @@ using namespace std;
  int main()
  {
     float puntuacion;
-    float inaceptable = round(0.0);
-    float aceptable = round (0.4);
-    float meritorio = round(0.6);
+    float inaceptable = 0.0;
+    float aceptable = 0.4;
+    float meritorio = 0.6;
     float dinero;
 
     cout<<"Ingresa tu puntuacion: "<<endl;
