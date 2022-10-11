@@ -1,9 +1,9 @@
 <h1 align="center"><strong><font face="Century Gothic"> UNIT 2 </font></strong></h1>  
 <h1 align="center"><strong><font face="Century Gothic"> Control structures and cycles</font></strong></h1>  
 
-<div align="center"> 
-<img alt="C++" height="120" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.programarya.com%2FCursos%2FC%2B%2B%2FCiclos&psig=AOvVaw13mMlskGcVy4w5sdXXT4MM&ust=1665552424276000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOCN2rq41_oCFQAAAAAdAAAAABAD">
-</div>  
+<div align = "center">
+<img src="../U2Imagenes/c.gif" width="300">
+</div>
 
 ---  
 <h2 align="center"><strong><font face="Century Gothic"> Exercises </font></strong></h2>  
