@@ -36,7 +36,6 @@ int main()
     }
     else
     {
-
         cout << "Solo puedes ingresar numeros iguales o mayores a 0. \n";
     }
     return 0;
