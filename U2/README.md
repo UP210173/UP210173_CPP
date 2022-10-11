@@ -2,7 +2,7 @@
 <h1 align="center"><strong><font face="Century Gothic"> Control structures and cycles</font></strong></h1>  
 
 <div align = "center">
-<img src="../U2Imagenes/c.gif" width="300">
+<img src="/U2/U2Imagenes/c.gif" width="300">
 </div>
 
 ---  
