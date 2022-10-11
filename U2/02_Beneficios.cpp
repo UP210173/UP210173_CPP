@@ -1,3 +1,9 @@
+/* Unidad 2. Puntuaciones
+    Autor: Cristian G Morales Pérez / UP210173
+    08 de Octubre de 2022
+    Descripcion: Se mostra el dinero que gana dependiendo de la puntuacion.
+
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;

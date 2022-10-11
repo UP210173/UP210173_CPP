@@ -5,30 +5,41 @@
 
 */
 #include <iostream>
- using namespace std;
+using namespace std;
 
- int main()
- {
-    int renta;
-    cout<<"Ingresa tu renta anual"<<endl;
-    cin>>renta;
+int main()
+{
+    int renta, desc, impuesto;
+    cout << "Ingresa tu renta anual" << endl;
+    cin >> renta;
 
-    if(renta < 10000)
+    if (renta < 10000)
     {
-        cout<<"Tu impuesto es del 5%";
+        cout << "Tu impuesto es del 5%";
+        desc = 5;
     }
-        else if(renta <= 200000){
-            cout<<"Tu impuesto es del 10%";
-        }
-        else if(renta <=35000){
-            cout<<"Tu impuesto es del 15%";
-        }
-        else if(renta <= 60000){
-            cout<<"Tu impuesto es del 30%";
-        }
-        else if( renta > 60000){
-            cout<<"Tu impuesto es del 45%";
-        }
-        return 0;
- }
- 
+    else if (renta <= 200000)
+    {
+        cout << "Tu impuesto es del 10%";
+        desc = 10;
+    }
+    else if (renta <= 35000)
+    {
+        cout << "Tu impuesto es del 15%";
+        desc = 15;
+    }
+    else if (renta <= 60000)
+    {
+        cout << "Tu impuesto es del 30%";
+        desc = 30;
+    }
+    else if (renta > 60000)
+    {
+        cout << "Tu impuesto es del 45%";
+        desc = 45;
+    }
+    impuesto = renta * desc / 100;
+    cout << " \n Debes de pagar: $ " << impuesto << endl;
+    
+    return 0;
+}
