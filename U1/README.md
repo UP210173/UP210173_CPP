@@ -2,7 +2,7 @@
 <h1 align="center"><strong><font face="Century Gothic"> Programming Introduction </font></strong></h1> 
 
 <div align = "center">
-<img src="/u1/Imagenes/pro.gif" width="300">
+<img src="/U2/U2Imagenes/pro.gif" width="300">
 </div>  
 
 ---  
@@ -18,7 +18,7 @@
 <h2 align="center"><strong><font face="Century Gothic"> HOLA MUNDO </font></strong></h2>  
 
 
-## Libraries
+## Preprocessor directives
 ``` 
 #include <iostream> 
 ``` 
@@ -32,7 +32,7 @@ int main(){
 ```   
 <h2 align="center"><strong><font face="Century Gothic"> PAR E IMPAR </font></strong></h2>  
 
-## Libraries
+## Preprocessor directives
 ``` 
 #include <iostream> 
 ``` 
@@ -45,9 +45,14 @@ int main()
     return 0;
 }
 ```  
+
+<div align = "center">
+<img src="/U1/Imagenes/Mundo.png" width="300">
+</div>  
+
 <h2 align="center"><strong><font face="Century Gothic"> TIPOS DE DATOS </font></strong></h2>  
 
-## Libraries  
+## Preprocessor directives  
 ``` 
 #include <iostream>  
 #include <stdio.h>
@@ -84,10 +89,15 @@ cout<<"Este programa muestra los tipos de datos \n";
 
    return 0;
 }
-``` 
+```  
+
+<div align = "center">
+<img src="/U1/Imagenes/datos.png" width="300">
+</div>  
+
 <h2 align="center"><strong><font face="Century Gothic"> CICLOS </font></strong></h2>  
 
-## Libraries  
+## Preprocessor directives 
 ``` 
 #include <iostream>  
 ``` 
@@ -117,10 +127,15 @@ int main()
     return 0;
 }
 
-``` 
+```  
+
+<div align = "center">
+<img src="/U1/Imagenes/ciclo.png" width="300">
+</div>  
+
 <h2 align="center"><strong><font face="Century Gothic"> EDADES </font></strong></h2>  
 
-## Libraries  
+## Preprocessor directives  
 ``` 
 #include <iostream>  
 ``` 
@@ -154,3 +169,14 @@ if (edad >= 1 && edad <= 150){
     }
 }
 ``` 
+## Edad = 62
+<div align = "center">
+<img src="/U1/Imagenes/edad1.png" width="300">
+</div>  
+
+## Edades 180 y 12 respectivamente  
+
+<div align = "center">
+<img src="/U1/Imagenes/edad2.png" width="300">
+</div>  
+
