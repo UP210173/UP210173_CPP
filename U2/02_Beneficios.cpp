@@ -10,9 +10,9 @@ using namespace std;
  int main()
  {
     float puntuacion;
-    float inaceptable = 0.0;
-    float aceptable = 0.4;
-    float meritorio = 0.6;
+    float inaceptable = 0.0f;
+    float aceptable = 0.4f;
+    float meritorio = 0.6f;
     float dinero;
 
     cout<<"Ingresa tu puntuacion: "<<endl;
@@ -29,7 +29,7 @@ using namespace std;
      }else if(puntuacion >= meritorio){
         cout<<"Tu puntuacion es meritoria"<<endl;
         dinero = meritorio * 2400;
-         cout<<"Tu ganancia es de: "<< dinero <<endl;
+        cout<<"Tu ganancia es de: "<< dinero <<endl;
      }else{
         cout<<"Puntuacion inavlida"<<endl;
      }

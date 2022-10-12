@@ -10,7 +10,7 @@ C++ programming   </font></strong></h2>
 <h3 align="center"><strong><font face="Times New Roman"> Polytechnic University of Aguascalientes </font></strong></h3>
 
 <div align="center"> 
-<img alt="C++" height="90" src="https://img2.freepng.es/20180425/wfw/kisspng-the-c-programming-language-c-for-beginners-leave-the-material-5ae11a550c6dc8.9560107615247017810509.jpg">
+<img alt="C++" height="150" src="https://img2.freepng.es/20180425/wfw/kisspng-the-c-programming-language-c-for-beginners-leave-the-material-5ae11a550c6dc8.9560107615247017810509.jpg">
 </div>
 
 <br> 
@@ -44,5 +44,6 @@ C++ programming   </font></strong></h2>
 * Git pull
 ***  
 
->[Git clone of my repository ](https://github.com/UP210173/UP210173_CPP.git)
+To clone this repo, type this command on your console.
+>       git clone https://github.com/UP210173/UP210173_CPP.git
 

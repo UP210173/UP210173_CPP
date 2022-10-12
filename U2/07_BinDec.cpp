@@ -1,7 +1,7 @@
 /* Unidad 2. Productos
     Autor: Cristian G Morales Pérez / UP210173
     09 de Octubre de 2022
-    Descripcion: Convertidor de numeros Binarios a decimal
+    Descripcion: Convertidor de numeros decimales a binario
 
 */
 #include <iostream>

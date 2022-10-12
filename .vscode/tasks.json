@@ -1,5 +1,39 @@
 {
+    "version": "2.0.0",
     "tasks": [
+        {
+            "label": "Compile C/C++",
+            "command": "g++",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-g",
+                "-Wall",
+                "-lm",
+                "-std=c++17"
+            ],
+            "type": "shell",
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            },
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": "absolute",
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe compilar archivo activo",
@@ -23,6 +57,5 @@
             },
             "detail": "Tarea generada por el depurador."
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
