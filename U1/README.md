@@ -1,6 +1,23 @@
-# <center> _**UNIT 1 Programming introduction**_  </center>  
+<h1 align="center"><strong><font face="Century Gothic"> UNIT 1 </font></strong></h1>  
+<h1 align="center"><strong><font face="Century Gothic"> Programming Introduction </font></strong></h1> 
 
-# <center> _**Hello World**_  </center>
+<div align = "center">
+<img src="/u1/Imagenes/cpr.gif" width="300">
+</div>  
+
+---  
+<h2 align="center"><strong><font face="Century Gothic"> Exercises </font></strong></h2>  
+
+* [01_HolaMundo.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U1/01_HolaMundo.cpp)
+* [02_ParImpar.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U1/02_ParImpar.cpp)
+* [03_TiposDatos.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U1/03_TiposDatos.cpp)
+* [04_ciclos.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U1/04_ciclos.cpp)
+* [05_Edades.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U1/05_Edades.cpp)  
+
+---  
+<h2 align="center"><strong><font face="Century Gothic"> HOLA MUNDO </font></strong></h2>  
+
+
 ## Libraries
 ``` 
 #include <iostream> 
@@ -13,7 +30,8 @@ int main(){
     return 0;
 }
 ```   
-# <center> _**Par e Impar**_  
+<h2 align="center"><strong><font face="Century Gothic"> PAR E IMPAR </font></strong></h2>  
+
 ## Libraries
 ``` 
 #include <iostream> 
@@ -27,7 +45,8 @@ int main()
     return 0;
 }
 ```  
-# <center> _**Tipos de datos**_  
+<h2 align="center"><strong><font face="Century Gothic"> TIPOS DE DATOS </font></strong></h2>  
+
 ## Libraries  
 ``` 
 #include <iostream>  
@@ -66,7 +85,8 @@ cout<<"Este programa muestra los tipos de datos \n";
    return 0;
 }
 ``` 
-# <center> _**Cycles**_  
+<h2 align="center"><strong><font face="Century Gothic"> CICLOS </font></strong></h2>  
+
 ## Libraries  
 ``` 
 #include <iostream>  
@@ -98,7 +118,8 @@ int main()
 }
 
 ``` 
-# <center> _**Ages**_  
+<h2 align="center"><strong><font face="Century Gothic"> EDADES </font></strong></h2>  
+
 ## Libraries  
 ``` 
 #include <iostream>  
