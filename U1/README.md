@@ -1,4 +1,4 @@
-<h1 align="center"><strong><font face="Century Gothic"> UNIT 1 </font></strong></h1>  
+<h1 align="center"><strong><font face="Century Gothic"> UNIT 1.0 </font></strong></h1>  
 <h1 align="center"><strong><font face="Century Gothic"> Programming Introduction </font></strong></h1> 
 
 <div align = "center">
