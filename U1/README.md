@@ -32,7 +32,7 @@ int main(){
 ```   
 
 <div align = "center">
-<img src="/U2/U2Imagenes/Mundo.jpg" width="300">
+<img src="/U2/U2Imagenes/Mundo.jpg" width="800">
 </div>  
 
 <h2 align="center"><strong><font face="Century Gothic"> PAR E IMPAR </font></strong></h2>  
@@ -52,7 +52,7 @@ int main()
 ```  
 
 <div align = "center">
-<img src="/U2/U2Imagenes/imp.jpg" width="300">
+<img src="/U2/U2Imagenes/im.jpg" width="800">
 </div>  
 
 <h2 align="center"><strong><font face="Century Gothic"> TIPOS DE DATOS </font></strong></h2>  
@@ -97,7 +97,7 @@ cout<<"Este programa muestra los tipos de datos \n";
 ```  
 
 <div align = "center">
-<img src="/U2/U2Imagenes/datos.jpg" width="300">
+<img src="/U2/U2Imagenes/datos.jpg" width="800">
 </div>  
 
 <h2 align="center"><strong><font face="Century Gothic"> CICLOS </font></strong></h2>  
@@ -135,7 +135,7 @@ int main()
 ```  
 
 <div align = "center">
-<img src="/U2/U2Imagenes/ciclo.jpg" width="300">
+<img src="/U2/U2Imagenes/ciclo.jpg" width="800">
 </div>  
 
 <h2 align="center"><strong><font face="Century Gothic"> EDADES </font></strong></h2>  
@@ -176,12 +176,12 @@ if (edad >= 1 && edad <= 150){
 ``` 
 ## Edad = 62
 <div align = "center">
-<img src="/U2/U2Imagenes/edad1.jpg" width="300">
+<img src="/U2/U2Imagenes/edad1.jpg" width="800">
 </div>  
 
 ## Edades 180 y 12 respectivamente  
 
 <div align = "center">
-<img src="/U2/U2Imagenes/edad2.jpg" width="300">
+<img src="/U2/U2Imagenes/edad2.jpg" width="800">
 </div>  
 
