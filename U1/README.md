@@ -2,7 +2,7 @@
 <h1 align="center"><strong><font face="Century Gothic"> Programming Introduction </font></strong></h1> 
 
 <div align = "center">
-<img src="/u1/Imagenes/cpr.gif" width="300">
+<img src="/u1/Imagenes/pro.gif" width="300">
 </div>  
 
 ---  
