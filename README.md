@@ -95,7 +95,10 @@ C++ programming   </font></strong></h2>
 * Git add .
 * Git commit -m "Description"
 * Git push
-* Git pull
+* Git pull 
+* git config --global user.name "name"
+* git config --global user.email name@gmail.com
+* git init
 ***  
 
 To clone this repo, type this command on your console.

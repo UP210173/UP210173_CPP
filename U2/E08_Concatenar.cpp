@@ -1,3 +1,8 @@
+/* Unidad 2. Concatenacion
+    Autor: Cristian G Morales Pérez / UP210173
+    11 de Octubre de 2022
+    Objetivo: Concatenar mediante el tipo de dato string
+*/
 #include <iostream>
 
 using namespace std;
