@@ -4,13 +4,14 @@
     Objetivo:
 */
 /*
-    isdigit
-    isalnum
-    isspace
-    islower
-    isupper
-    tolower
-    toupper
+    isalpha Pregunta si la variable es alfanumerica
+    isdigit Pregunta si es numero
+    isalnum Pregunta si son letras o numeros
+    isspace Para espacios
+    islower Pregunta si las letras osn minusculas
+    isupper Pregunta si las letras son mayúsculas
+    tolower Cambia las letras a mayúsculas
+    toupper Cambia las letras a minúsculas
 */
 #include <iostream>
 #include<string.h>
