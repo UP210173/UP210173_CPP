@@ -26,7 +26,7 @@ C++ programming   </font></strong></h2>
 ><a href="https://github.com/UP210173/UP210173_CPP/tree/main/U2">Unit 2 Control structures and cycles</a>
 <br>  
 
- ><a href="?">Unit 3 Functions</a>
+ ><a href="https://github.com/UP210173/UP210173_CPP/tree/main/U3">Unit 3 Functions</a>
 <br> 
 
 ><a href="?">Unit 4 Files and arrays</a>

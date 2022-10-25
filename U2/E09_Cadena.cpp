@@ -8,7 +8,7 @@
     isdigit Pregunta si es numero
     isalnum Pregunta si son letras o numeros
     isspace Para espacios
-    islower Pregunta si las letras osn minusculas
+    islower Pregunta si las letras son minusculas
     isupper Pregunta si las letras son mayúsculas
     tolower Cambia las letras a mayúsculas
     toupper Cambia las letras a minúsculas
