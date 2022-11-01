@@ -318,6 +318,11 @@ int main()
 <img src="/U2/U2Imagenes/t2.jpg" width="1000">
 </div>  
 
+## Temperaturas
+<div align = "center">
+<img src="/U2/U2Imagenes/t3.jpg" width="1000">
+</div>  
+
 ---  
 <h2 align="center"><strong><font face="Century Gothic"> 06 Productos </font></strong></h2>
 
