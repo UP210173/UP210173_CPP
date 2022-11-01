@@ -69,6 +69,16 @@ int main()
     return 0;
 }  
 
+## Renta = 65000
+<div align = "center">
+<img src="/U2/U2Imagenes/renta1.jpg" width="1000">
+</div>  
+
+## Renta = 36000
+<div align = "center">
+<img src="/U2/U2Imagenes/renta2.jpg" width="1000">
+</div>
+
 ```  
 --- 
 
@@ -113,7 +123,18 @@ using namespace std;
      }
      cout<<endl;
      return 0;
-    }
+    }  
+
+## Puntuacion = 0.0  
+<div align = "center">
+<img src="/U2/U2Imagenes/ben1.jpg" width="1000">
+</div>  
+
+## Puntuacion = 0.6
+<div align = "center">
+<img src="/U2/U2Imagenes/ben2.jpg" width="1000">
+</div>
+
  
 ``` 
 ---  
@@ -153,6 +174,16 @@ int main()
 
     return 0;
 }  
+
+## Edad =  14 años
+<div align = "center">
+<img src="/U2/U2Imagenes/j1.jpg" width="1000">
+</div>  
+
+## Edad = 3 años
+<div align = "center">
+<img src="/U2/U2Imagenes/j2.jpg" width="1000">
+</div>
 
  ```  
  ---  
@@ -231,6 +262,16 @@ int main(){
     return 0;
 }  
 
+## Pizza Vegetariana
+<div align = "center">
+<img src="/U2/U2Imagenes/p1.jpg" width="1000">
+</div>  
+
+## Pizza No Vegetariana
+<div align = "center">
+<img src="/U2/U2Imagenes/p2.jpg" width="1000">
+</div>
+
   ```  
   --- 
 
@@ -272,6 +313,13 @@ int main()
     
     return 0;
 }  
+
+## Temperaturas
+<div align = "center">
+<img src="/U2/U2Imagenes/t2.jpg" width="1000">
+</div>  
+
+
 
 ```  
 ---  

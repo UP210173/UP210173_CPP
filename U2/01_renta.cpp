@@ -18,7 +18,7 @@ int main()
         cout << "Tu impuesto es del 5%";
         desc = 5;
     }
-    else if (renta <= 200000)
+    else if (renta <= 20000)
     {
         cout << "Tu impuesto es del 10%";
         desc = 10;

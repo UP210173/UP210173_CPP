@@ -32,9 +32,9 @@ int main()
         }
     } while (i <=6);
 
-    cout << "La temperatura de hoy es: " << TAcumulada / 6 << " ° "<<endl;
-    cout << "La temperatura minima es: " << T_min << " ° " << endl;
-    cout << "La temperatura maxima es: " << T_max << " ° "<< endl;
+    cout << "La temperatura de hoy es de : " << TAcumulada / 6 << " grados "<<endl;
+    cout << "La temperatura minima es de : " << T_min << " grados" << endl;
+    cout << "La temperatura maxima es de : " << T_max << " grados "<< endl;
     
     return 0;
 }
