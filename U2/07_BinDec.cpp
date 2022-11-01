@@ -14,7 +14,7 @@ int main()
     int numero = 0;
     string resultado;
 
-    cout << "Ingresa un número: ";
+    cout << "Ingresa un numero: ";
     cin >> numero;
 
     if (numero > 0)

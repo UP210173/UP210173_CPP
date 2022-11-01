@@ -69,12 +69,13 @@ int main()
     return 0;
 }  
 
-```  
+```
+## Renta = 65000  
 <div align = "center">
 <img src="/U2/U2Imagenes/renta1.jpg" width="1000">
 </div>  
 
-
+## Renta = 36000
 <div align = "center">
 <img src="/U2/U2Imagenes/renta2.jpg" width="1000">
 </div>  
@@ -351,6 +352,16 @@ int main(){
 }  
 
  ```  
+## Primera compra
+<div align = "center">
+<img src="/U2/U2Imagenes/c1.jpg" width="1000">
+</div>  
+
+## Segunda compra
+<div align = "center">
+<img src="/U2/U2Imagenes/c2.jpg" width="1000">
+</div>  
+
  ---  
  <h2 align="center"><strong><font face="Century Gothic"> 07 Binario a Decimal </font></strong></h2>  
   <h3 align="left"><strong><font face="Century Gothic"> Realice un programa que realice la conversión de binario a decimal, solo para números enteros mayores a 0. El resultado puede ser mostrado mediante una variable entera o en un conjunto de caracteres</font></strong></h3>  
@@ -393,7 +404,16 @@ int main()
     return 0;
 }  
 
-``` 
+```  
+## Numero decimal 255
+<div align = "center">
+<img src="/U2/U2Imagenes/n1.jpg" width="1000">
+</div>  
+
+## Numero decimal 10
+<div align = "center">
+<img src="/U2/U2Imagenes/n2.jpg" width="1000">
+</div>  
 
 
 
