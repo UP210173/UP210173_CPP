@@ -69,17 +69,15 @@ int main()
     return 0;
 }  
 
-## Renta = 65000
+```  
 <div align = "center">
 <img src="/U2/U2Imagenes/renta1.jpg" width="1000">
 </div>  
 
-## Renta = 36000
+
 <div align = "center">
 <img src="/U2/U2Imagenes/renta2.jpg" width="1000">
-</div>
-
-```  
+</div>  
 --- 
 
 <h2 align="center"><strong><font face="Century Gothic"> 02 Beneficios </font></strong></h2>  
@@ -125,6 +123,7 @@ using namespace std;
      return 0;
     }  
 
+```  
 ## Puntuacion = 0.0  
 <div align = "center">
 <img src="/U2/U2Imagenes/ben1.jpg" width="1000">
@@ -133,10 +132,8 @@ using namespace std;
 ## Puntuacion = 0.6
 <div align = "center">
 <img src="/U2/U2Imagenes/ben2.jpg" width="1000">
-</div>
+</div>  
 
- 
-``` 
 ---  
  <h2 align="center"><strong><font face="Century Gothic"> 03 Juegos </font></strong></h2>
 
@@ -175,7 +172,8 @@ int main()
     return 0;
 }  
 
-## Edad =  14 años
+ ```  
+ ## Edad =  14 años
 <div align = "center">
 <img src="/U2/U2Imagenes/j1.jpg" width="1000">
 </div>  
@@ -183,9 +181,8 @@ int main()
 ## Edad = 3 años
 <div align = "center">
 <img src="/U2/U2Imagenes/j2.jpg" width="1000">
-</div>
+</div>  
 
- ```  
  ---  
  <h2 align="center"><strong><font face="Century Gothic"> 04 Pizzas </font></strong></h2>
 
@@ -262,6 +259,8 @@ int main(){
     return 0;
 }  
 
+  ```  
+
 ## Pizza Vegetariana
 <div align = "center">
 <img src="/U2/U2Imagenes/p1.jpg" width="1000">
@@ -270,10 +269,8 @@ int main(){
 ## Pizza No Vegetariana
 <div align = "center">
 <img src="/U2/U2Imagenes/p2.jpg" width="1000">
-</div>
-
-  ```  
-  --- 
+</div> 
+--- 
 
   <h2 align="center"><strong><font face="Century Gothic"> 05 Temperaturas </font></strong></h2>  
   <h3 align="left"><strong><font face="Century Gothic"> Hacer un programa en el que se ingresen 6 temperaturas y determine el promedio, la mas baja y la mas alta.</font></strong></h3>  
@@ -314,14 +311,12 @@ int main()
     return 0;
 }  
 
+```  
 ## Temperaturas
 <div align = "center">
 <img src="/U2/U2Imagenes/t2.jpg" width="1000">
 </div>  
 
-
-
-```  
 ---  
 <h2 align="center"><strong><font face="Century Gothic"> 06 Productos </font></strong></h2>
 
