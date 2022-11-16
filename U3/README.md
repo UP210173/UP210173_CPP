@@ -147,12 +147,12 @@ void imprimirCambio(){
 ```  
 ## Primera cantidad de dinero 
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/m1.jpg" width="1000">
 </div>  
 
 ## Segunda cantidad de dinero
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/m2.jpg" width="1000">
 </div>  
 
 ---  
