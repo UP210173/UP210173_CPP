@@ -374,16 +374,16 @@ int main()
 }
 
  ```  
- ## Numero 
+
+ ## Number 346
 <div align = "center">
 <img src="/U2/U2Imagenes/nr1.jpg" width="1000">
 </div>  
 
-## Numero
+## Number 777
 <div align = "center">
 <img src="/U2/U2Imagenes/nr2.jpg" width="1000">
 </div>  
-
  ---  
 
   <h2 align="center"><strong><font face="Century Gothic"> 07 RFC </font></strong></h2>  
