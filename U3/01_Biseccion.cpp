@@ -36,6 +36,6 @@ int main()
         er = abs(x2 - x1);
         i = i + 1;
     }
-    cout << "i= " << i << "  raiz=  " << xnueva << endl;
+    cout << "i = " << i << "  raiz=  " << xnueva << endl;
     return 0;
 }
