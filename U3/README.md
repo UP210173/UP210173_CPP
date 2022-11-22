@@ -174,13 +174,9 @@ int main()
 <div align = "center">
 <img src="/U2/U2Imagenes/cos1.jpg" width="1000">
 </div>  
-
-## Coseno 2
-<div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
-</div>  
-
+ 
 ---  
+  
 <h2 align="center"><strong><font face="Century Gothic"> 04 STANDARD DEVIATION </font></strong></h2>  
 <h3 align="center"><strong><font face="Century Gothic"> In this program, the standard deviation of specific values ​​in a population will be displayed. </font></strong></h3>  
 
@@ -252,8 +248,6 @@ int main()
 </div>  
 
 ---  
-
-
 
 <h2 align="center"><strong><font face="Century Gothic"> 05 COINS </font></strong></h2>  
 <h3 align="center"><strong><font face="Century Gothic"> In this program from an amount of it will show how many bills or coins it will give you </font></strong></h3>  
@@ -527,10 +521,10 @@ long double factorial(int n)
  ```  
  ## First RFC
 <div align = "center">
-<img src="/U2/U2Imagenes/rf1.jpg" width="1000">
+<img src="/U2/U2Imagenes/fr1.jpg" width="1000">
 </div>  
 
 ## Second RFC
 <div align = "center">
-<img src="/U2/U2Imagenes/rf2.jpg" width="1000">
+<img src="/U2/U2Imagenes/fr2.jpg" width="1000">
 </div>  
