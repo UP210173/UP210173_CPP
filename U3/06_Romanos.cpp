@@ -1,3 +1,8 @@
+
+/*
+Unidad 3. Funciones
+Autor: Morales Pérez Cristian Guadalupe / UP210173
+*/
 #include <iostream>
 #include <cstring>
 using namespace std;

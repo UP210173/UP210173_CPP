@@ -1,3 +1,7 @@
+/*
+Unidad 3. Funciones
+Autor: Morales Pérez Cristian Guadalupe / UP210173
+*/
 #include <stdio.h>
 #define MAX 100
 

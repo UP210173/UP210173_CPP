@@ -176,7 +176,7 @@ int main()
 </div>  
  
 ---  
-  
+
 <h2 align="center"><strong><font face="Century Gothic"> 04 STANDARD DEVIATION </font></strong></h2>  
 <h3 align="center"><strong><font face="Century Gothic"> In this program, the standard deviation of specific values ​​in a population will be displayed. </font></strong></h3>  
 
@@ -387,7 +387,7 @@ int main()
  ---  
 
   <h2 align="center"><strong><font face="Century Gothic"> 07 RFC </font></strong></h2>  
- <h3 align="center"><strong><font face="Century Gothic"> this program shows the rfc from personal data </font></strong></h3> 
+ <h3 align="center"><strong><font face="Century Gothic"> This program shows the rfc from personal data </font></strong></h3> 
 
  ---  
  
@@ -481,12 +481,12 @@ int main() {
 }
 
  ```  
- ## First RFC
+ ## First Vector
 <div align = "center">
 <img src="/U2/U2Imagenes/v1.jpg" width="1000">
 </div>  
 
-## Second RFC
+## Second Vector
 <div align = "center">
 <img src="/U2/U2Imagenes/v2.jpg" width="1000">
 </div>  
@@ -519,12 +519,12 @@ long double factorial(int n)
 }  
 
  ```  
- ## First RFC
+ ## First Recursive Function
 <div align = "center">
 <img src="/U2/U2Imagenes/fr1.jpg" width="1000">
 </div>  
 
-## Second RFC
+## Second Recursive Function
 <div align = "center">
 <img src="/U2/U2Imagenes/fr2.jpg" width="1000">
 </div>  
