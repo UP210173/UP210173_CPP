@@ -27,9 +27,9 @@ int main() {
 	} 
 	
 	/* Números ordenados */
-	printf ("Los números ordenados son:\n"); 
+	printf ("Los numeros ordenados ascendentemente son:\n"); 
 	for (i = 0; i < total; i++) { 
-		printf("%d | ", vNumeros[i]); 
+		printf("%d \n ", vNumeros[i]); 
 	} 
 	
 	printf("\n"); 

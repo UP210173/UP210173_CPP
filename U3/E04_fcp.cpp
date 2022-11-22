@@ -6,7 +6,7 @@ using namespace std;
 long int factorial(int n);
 long int permutacion(int n, int r); //5P2 = 20
 long int combinacion(int n, int r); //5C5 = 10 
-long int euler(int n;)
+long int euler(int n);
 
 int main()
 {

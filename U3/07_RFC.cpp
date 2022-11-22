@@ -6,15 +6,15 @@ using namespace std;
 
 int main()
 {
-    char apellidoP[50], apellidoM[50], nombre[50], rfc[50], año[50];
+    char apellidoP[50], apellidoM[50], nombre[50], rfc[50], a[50];
     cout << "Apellido paterno" << endl;
     cin >> apellidoP;
     cout << "Apellido materno " << endl;
     cin >> apellidoM;
     cout << "Nombre(s) " << endl;
     cin >> nombre;
-    cout << "Fecha de nacimiento" << endl;
-    cin >> año;
+    cout << "Fecha de nacimiento aaaa/mm/dd" << endl;
+    cin >> a;
 
     rfc[0] = apellidoP[0];
     rfc[1] = apellidoP[1];
@@ -22,9 +22,9 @@ int main()
     rfc[3] = nombre[0];
     strcat(apellidoP, apellidoM);
     strcat(apellidoM, nombre);
-    strcat(nombre, año);
+    strcat(nombre, a);
 
-    cout << rfc << año << endl;
+    cout << rfc << a << endl;
 
     return 0;
 }

@@ -9,9 +9,9 @@
 <h2 align="center"><strong><font face="Century Gothic"> Exercises </font></strong></h2>  
 
 * [01_Biseccion.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/01_Biseccion.cpp)
-* [02_G2R_R2G.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/02_G2R_R2G.cpp)
+* [02_Bisiesto.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/02_Bisiesto.cpp)
 * [03_Coseno.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/03_Coseno.cpp)
-* [04_Bisiesto.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/04_Bisiesto.cpp)
+* [04_DesviacionP.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/04_DesviacionP.cpp)
 * [05_Monedas.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/05_Monedas.cpp)
 * [06_Romanos.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/06_Romanos.cpp)
 * [07_RFC.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/07_RFC.cpp)  
@@ -19,7 +19,8 @@
 * [09_FuncionRecursiva.cpp](https://github.com/UP210173/UP210173_CPP/blob/main/U3/09_FuncionRecursiva.cpp)
 
 --- 
- <h2 align="center"><strong><font face="Century Gothic"> 01 BISECCION </font></strong></h2>  
+ <h2 align="center"><strong><font face="Century Gothic"> 01 BISECTION </font></strong></h2>  
+ <h3 align="center"><strong><font face="Century Gothic"> In this program the square root will be found, based on an established margin of error </font></strong></h3> 
 
 ```  
 #include <iostream>
@@ -65,76 +66,66 @@ int main()
 }
 
 ```
-## Corrida 1 
+## First run
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/bis1.jpg" width="1000">
 </div>  
 
-## Corrida 2
+## Second run
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/bis2.jpg" width="1000">
 </div> 
+
 --- 
- <h2 align="center"><strong><font face="Century Gothic"> 02 GRADOS A RADIANES / RADIANES A GRADOS </font></strong></h2>  
+
+ <h2 align="center"><strong><font face="Century Gothic"> 02 LEAP-YEAR </font></strong></h2>  
+ <h3 align="center"><strong><font face="Century Gothic"> Leap years will be found in this program </font></strong></h3>  
+
 ---
 
 ```  
 #include <iostream>
+#include <math.h>
 using namespace std;
 
-#define PI 3.14159265358979323846
 
-void menu();
-
-double g2r(double grados){
-    return grados * PI/180;
-}
-
-double r2g(double rad){
-    return rad*180/PI;
-}
-
-int main(int argc, char const *argv[])
-{
-    int op;
-    double grados, rad;
-
-    menu();
-    cin >> op;
-    while (op != 1 && op != 2){
-        cout <<"numero invalido, ingresa otro" << endl;
-        cin >> op;
-    }
-
-    if (op==1){
-        cout << "¿Cuantos grados quieres convertir a radianes?" << endl;
-        cin >> grados;
-        cout << g2r(grados) << " rad" << endl;
+bool esBisiesto(int año){
+    if (año%400==0 || ( año%4==0 && año%100!=0 )){
+        return true;
     }else{
-        cout << "¿Cuantos radianes quieres convertir a grados?" << endl;
-        cin >> rad;
-        cout << r2g(rad) << " grad" << endl;
+        return false;
     }
+}
 
+int main()
+{
+    int a;
+    cout << "Ingresa un año" << endl;
+    cin >> a;
+
+    if (esBisiesto(a)==true){
+        cout << "El año es bisiesto \n" << endl;
+    }else {
+        cout << "El año no es bisiesto \n" << endl;
+    }
     return 0;
 }
 
-void menu(){
-    cout << "Para cambiar de grados a radianes presiona 1 \n"<< "Para cambiar de radianes a grados presiona 2 \n";
-}
-
 ```
-## Grados a Radianes 
+## Year 2022
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/a1.jpg" width="1000">
 </div>  
 
-## Radianes a Grados
+## Year 2024
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
-</div>   
---- 
- <h2 align="center"><strong><font face="Century Gothic"> 03 FUNCION COSENO </font></strong></h2>  
+<img src="/U2/U2Imagenes/a2.jpg" width="1000">
+</div>  
+
+---  
+
+<h2 align="center"><strong><font face="Century Gothic"> 03 COSENO FUNCTION </font></strong></h2>  
+<h3 align="center"><strong><font face="Century Gothic"> In this program, the cosine value of a specific angle will be given </font></strong></h3>  
 
 ---  
 
@@ -142,33 +133,46 @@ void menu(){
 #include <iostream>
 #include <math.h>
 using namespace std;
+
+#define n 6
+#define PI 3.1416
+
+long double factorial(int num)
+{
+    long double t= 1.0;
+    for (int i = 1; i <= num; i++)
+    {
+        t *= i;
+    }
+    return t;
+}
+
+double rad(double grd)
+{
+    return grd * PI / 180;
+}
+
+double coseno(double x)
+{
+    double resultado = 0;
+    for (int i = 0; i <= n; i++)
+    {
+        resultado = resultado + (pow(-1, i)*((pow(x, 2 * i)) / factorial(2 * i)));
+    }
+    return resultado;
+}
 int main()
 {
-    short int i, j, n, expo = 0, signo = -1;
-    float a;
-    double resultado = 0, factorial = 1;
-    cout << "Introduzca el angulo" << endl;
-    cin >> a;
-    cout << "Introduzca el numero de terminos" << endl;
-    cin >> n;
-    for (i = 0; i <= n; i++)
-    {
-        factorial = 1;
-        for (j = 1; j <= expo; j++)
-            factorial *= j;
-        signo *= -1;
-        resultado += signo * pow(a, expo) / factorial;
-        cout << resultado << endl;
-        expo = expo + 2;
-    }
-    cout << "El coseno del angulo de " << a << "es" << resultado << endl;
+    double angulo = rad(60), print;
+    print = coseno(angulo);
+    cout << "Coseno de 60 igual a  " << print << endl;
     return 0;
 }
 
 ```
-## Coseno 1 
+## Coseno de 60 
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/cos1.jpg" width="1000">
 </div>  
 
 ## Coseno 2
@@ -177,8 +181,82 @@ int main()
 </div>  
 
 ---  
+<h2 align="center"><strong><font face="Century Gothic"> 04 STANDARD DEVIATION </font></strong></h2>  
+<h3 align="center"><strong><font face="Century Gothic"> In this program, the standard deviation of specific values ​​in a population will be displayed. </font></strong></h3>  
 
-<h2 align="center"><strong><font face="Century Gothic"> 06 DESGLOCE DE MONEDAS </font></strong></h2>  
+---  
+
+```  
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+#define n 5
+double res(double num, double m)
+{
+    double res = pow(num - m,2);
+    return res;
+}
+
+void llenar(double r[], int nt, double datos[], double m)
+{
+    for (int i = 0; i < nt; i++)
+    {
+        r[i] = res(datos[i], m);
+    }
+}
+double media(double datos[n], int nt)
+{
+    int media = 0;
+    for (int i = 0; i < nt; i++)
+    {
+        media += datos[i]; 
+    }
+
+    return media / nt;
+}
+
+double suma(double res[], double sumatoria, int nt)
+{
+
+    for (int i = 0; i < nt; i++)
+    {
+        sumatoria = sumatoria + res[i];
+    }
+
+    return sumatoria;
+}
+
+int main()
+{
+    double datos[] = {600, 470, 170, 430, 300};
+    double m = media(datos, n);
+    double r[n];
+    double sumatoria, dep, dem;
+
+    llenar(r, n, datos, m);
+    sumatoria = suma(r, sumatoria, n);
+    dep = sqrt(sumatoria / n);
+    dem = sqrt(sumatoria / (n - 1));
+
+    cout << "La desviacion estandar poblacional es: " << dep << endl;
+    cout << "La desviacion estandar de la muestra es: " << dem << endl;
+
+    return 0;
+}
+
+```
+## Standard Deviation
+<div align = "center">
+<img src="/U2/U2Imagenes/dp.jpg" width="1000">
+</div>  
+
+---  
+
+
+
+<h2 align="center"><strong><font face="Century Gothic"> 05 COINS </font></strong></h2>  
+<h3 align="center"><strong><font face="Century Gothic"> In this program from an amount of it will show how many bills or coins it will give you </font></strong></h3>  
 
 ---  
    
@@ -266,12 +344,10 @@ void imprimirCambio(){
 </div>  
 
 ---  
- <h2 align="center"><strong><font face="Century Gothic"> 07 NUMEROS ROMANOS </font></strong></h2>  
+ <h2 align="center"><strong><font face="Century Gothic"> 06 ROMAN NUMBERS </font></strong></h2>  
+ <h3 align="center"><strong><font face="Century Gothic"> This program finds the Roman number from an Arabic number </font></strong></h3> 
 
  ---  
-
-
- <h3 align="left"><strong><font face="Century Gothic">  </font></strong></h3> 
 
  ```  
 #include <iostream>
@@ -306,12 +382,155 @@ int main()
  ```  
  ## Numero 
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/nr1.jpg" width="1000">
 </div>  
 
 ## Numero
 <div align = "center">
-<img src="/U2/U2Imagenes/" width="1000">
+<img src="/U2/U2Imagenes/nr2.jpg" width="1000">
 </div>  
 
  ---  
+
+  <h2 align="center"><strong><font face="Century Gothic"> 07 RFC </font></strong></h2>  
+ <h3 align="center"><strong><font face="Century Gothic"> this program shows the rfc from personal data </font></strong></h3> 
+
+ ---  
+ 
+ ```  
+#include <stdio.h>
+#include <string.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char apellidoP[50], apellidoM[50], nombre[50], rfc[50], año[50];
+    cout << "Apellido paterno" << endl;
+    cin >> apellidoP;
+    cout << "Apellido materno " << endl;
+    cin >> apellidoM;
+    cout << "Nombre(s) " << endl;
+    cin >> nombre;
+    cout << "Fecha de nacimiento" << endl;
+    cin >> año;
+
+    rfc[0] = apellidoP[0];
+    rfc[1] = apellidoP[1];
+    rfc[2] = apellidoM[0];
+    rfc[3] = nombre[0];
+    strcat(apellidoP, apellidoM);
+    strcat(apellidoM, nombre);
+    strcat(nombre, año);
+
+    cout << rfc << año << endl;
+
+    return 0;
+}  
+
+ ```  
+ ## First RFC
+<div align = "center">
+<img src="/U2/U2Imagenes/rfc1.jpg" width="1000">
+</div>  
+
+## Second RFC
+<div align = "center">
+<img src="/U2/U2Imagenes/rfc2.jpg" width="1000">
+</div>  
+
+ ---  
+
+  <h2 align="center"><strong><font face="Century Gothic"> 08 ORDERED VECTOR </font></strong></h2>  
+ <h3 align="center"><strong><font face="Century Gothic"> This program orders vectors, using the bubble method </font></strong></h3> 
+
+ ---  
+ 
+ ```  
+#include <stdio.h>
+#define MAX 100
+
+int main() {	
+	int total;
+	int vNumeros[MAX]; 
+	int j, i, temp; 
+	
+	printf ("Cuantos numeros deseas ordenar? "); 
+	scanf("%d", &total);
+	
+	/* Lee y almacena los datos en el arreglo */
+	for (i = 0; i < total; i++) { 
+		printf ("%d: ", i + 1); 
+		scanf ("%d", &vNumeros[i]); 
+	} 
+	
+	/* Método de búrbuja */
+	for (i = 0; i < (total - 1); i++) { 
+		for (j = i + 1; j < total; j++) { 
+			if (vNumeros[j] < vNumeros[i]) { 
+				temp = vNumeros[j]; 
+				vNumeros[j] = vNumeros[i]; 
+				vNumeros[i] = temp; 
+			} 
+		} 
+	} 
+	
+	/* Números ordenados */
+	printf ("Los números ordenados son:\n"); 
+	for (i = 0; i < total; i++) { 
+		printf("%d | ", vNumeros[i]); 
+	} 
+	
+	printf("\n"); 
+
+}
+
+ ```  
+ ## First RFC
+<div align = "center">
+<img src="/U2/U2Imagenes/v1.jpg" width="1000">
+</div>  
+
+## Second RFC
+<div align = "center">
+<img src="/U2/U2Imagenes/v2.jpg" width="1000">
+</div>  
+
+ ---  
+
+  <h2 align="center"><strong><font face="Century Gothic"> 09 RECURSIVE FUNCTION </font></strong></h2>  
+ <h3 align="center"><strong><font face="Century Gothic">Recursive function from the factorial of a number </font></strong></h3> 
+
+ ---  
+ 
+ ```  
+#include <iostream>
+using namespace std;
+long double factorial(int);
+int main()
+{
+    int n;
+    cout << "Introduzca un numero: ";
+    cin >> n;
+    cout << "Factorial: " << factorial(n) << endl;
+}
+long double factorial(int n)
+{
+    long double fact;
+    if (n == 0)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}  
+
+ ```  
+ ## First RFC
+<div align = "center">
+<img src="/U2/U2Imagenes/rf1.jpg" width="1000">
+</div>  
+
+## Second RFC
+<div align = "center">
+<img src="/U2/U2Imagenes/rf2.jpg" width="1000">
+</div>  

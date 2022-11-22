@@ -22,7 +22,7 @@ double media(double datos[n], int nt)
     int media = 0;
     for (int i = 0; i < nt; i++)
     {
-        media += datos[i];
+        media += datos[i]; 
     }
 
     return media / nt;

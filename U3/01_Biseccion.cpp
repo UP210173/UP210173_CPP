@@ -9,8 +9,8 @@ double fnecu1(double x)
 }
 int main()
 {
-    double x1 = -10;
-    double x2 = 4.5;
+    double x1 = 4;
+    double x2 = 7;
     double xnueva, r;
 
     double es = .0001;         // Error estandar o absoluto
