@@ -24,7 +24,7 @@
 
 ---  
 
-## **Use**
+## **Functions**
 
 This program includes various functions that they make use of, which are the following:
 
