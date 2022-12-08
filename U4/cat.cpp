@@ -15,7 +15,7 @@ char board[3][3] = {{'1', '2', '3'},
 void tablero(); // El tablero de juego, definido como una matriz.
 bool setMarker(int slot); // Funcion que indica el número de la casilla que ocupará la marca, para ponerla en el tablero de juego.
 char marcador; //Es la marca o símbolo que se colocará y mostrará en el tablero, según lo que el usuario haya elegido e ingresado.
-int jugador; // 
+int jugador;  
 string jugador1;
 string jugador2;
 int ganador(); // Se determina el ganador del juego entre los participantes.
