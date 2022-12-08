@@ -21,3 +21,41 @@
 <div align = "center">
 <img src="/U2/U2Imagenes/DiagramaGato.jpg" width="300">
 </div>  
+
+---  
+
+## **Use**
+
+This program includes various functions that they make use of, which are the following:
+
+- ***setMarker()***, is the number of the square that will be occupied by the mark, to put it on the game board.
+
+- ***ganador()***, to determine the winner of the game among the participants.
+
+- ***tablero()***, the game board that will be drawn by the program, representing the game.
+
+- ***game()***, the game of the move that the users will make.
+
+- ***swap_player_and_marker()***, swaps the player and the player after the game, to indicate and give the user his turn when it's time.
+<br><br>
+
+### **Game variables**
+These variables that were used in the program were created, those that are global and those that are not, and are the following:
+
+* ***current_marker***, is the mark or symbol to be placed and displayed on the board, depending on what the user has chosen and entered.
+
+* ***juagdor***, to give the corresponding player a turn.
+
+* ***jugador1***, one of the participants.
+
+* ***juagdor2***, another of the participants.
+
+* ***tablero***, the game board, defined as an array.
+
+* ***row***, the rows that represent and divide the game board.
+
+* ***col***, the columns that represent and divide the game board.
+
+* ***i***, locate the marks on the board.
+
+* ***marker_player***, is the game symbol on the board that identifies the player on it.

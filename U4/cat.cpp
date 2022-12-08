@@ -10,7 +10,7 @@ using namespace std;
 
 char board[3][3] = {{'1', '2', '3'},
                     {'4', '5', '6'},
-                    {'7', '8', '9'}};
+                    {'7', '8', '9'}}; // Declaracion del tablero mediante matriz
 
 void tablero(); // El tablero de juego, definido como una matriz.
 bool setMarker(int slot); // Funcion que indica el número de la casilla que ocupará la marca, para ponerla en el tablero de juego.
@@ -26,7 +26,7 @@ int main()
 {
 
     system("cls"); // Limpia la pantalla
-    cout << "***** CATS GAME ***** \n";
+    cout << "** CATS GAME ** \n";
 
     cout << "Nombre Jugador 1:\n";
     cin >> jugador1;
@@ -40,7 +40,7 @@ int main()
     return 0;
 }
 
-void tablero() //Procedimiento para el tablero 
+void tablero() //Funcion procedimiento para el tablero 
 {
     cout << " " << board[0][0] << " | " << board[0][1] << " | " << board[0][2] << endl;
     cout << "-----------\n";
@@ -49,7 +49,7 @@ void tablero() //Procedimiento para el tablero
     cout << " " << board[2][0] << " | " << board[2][1] << " | " << board[2][2] << endl;
 }
 
-bool setMarker(int slot)// Estructura booleana para las filas y columnas
+bool setMarker(int slot)// Funcion para las estructura booleana para las filas y columnas
 {
     int row;
     int col;
@@ -149,7 +149,7 @@ void juego() // Estructura de procedimiento para jugar
         // i = localizar las marcas en el tablero.
     for (int i = 0; i < 9; i++)
     {
-        cout << "Jugador " << jugador << " escoge tu casilla \n";
+        cout << "Jugador " << jugador << " escoge tu casilla entre el 1 y 9 \n";
         cin >> slot;
         if (slot < 1 || slot > 9)
         {
