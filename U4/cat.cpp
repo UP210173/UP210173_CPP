@@ -21,7 +21,7 @@ string jugador2;
 int ganador(); // Se determina el ganador del juego entre los participantes.
 void juego(); // Dentro del juego se identifica de la jugada que harán los usuarios.
 void swap_player_and_marker(); //Indicar al usuario despues de la jugada que debe ceder su turno al usuario cuando sea el momento.
-int ganador(); // Se determina el ganador del juego entre los participantes.
+
 int main()
 {
 
