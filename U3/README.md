@@ -387,7 +387,7 @@ int main()
 
  ---  
 
-  <h2 align="center"><strong><font face="Century Gothic"> 07 RFC </font></strong></h2>  
+<h2 align="center"><strong><font face="Century Gothic"> 07 RFC </font></strong></h2>  
  <h3 align="center"><strong><font face="Century Gothic"> This program shows the rfc from personal data </font></strong></h3> 
 
  ---  

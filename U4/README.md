@@ -1,0 +1,23 @@
+<h1 align="center"><strong><font face="Century Gothic"> UNIT 4 </font></strong></h1>  
+<h1 align="center"><strong><font face="Century Gothic"> FILES AND ARRAYS </font></strong></h1>  
+
+<div align = "center">
+<img src="/U2/U2Imagenes/c.gif" width="300">
+</div>  
+
+---  
+
+
+<h2 align="center"><strong><font face="Century Gothic"> PROJECT</font></strong></h2> 
+
+<h2 align="center"><strong><font face="Century Gothic"> FLOWCHART CAT GAME</font></strong></h2> 
+
+<h3 align="left"><strong><font face="Century Gothic"> Here is the flowchart, which represents our "Cat Game" program based on its main function. </font></strong></h3>  
+
+<h3 align="left"><strong><font face="Century Gothic"> The declaration of the variables used in the main function is shown, both those that were declared global as well as the functions that were created to execute the game code, which will bring the input data. That is entered when the execution of the game begins. Also, use C++ tools learned during the course, such as loops, and at the end, the output data that is expected to be received at the end of the execution is shown. </font></strong></h3>  
+
+---  
+
+<div align = "center">
+<img src="/U2/U2Imagenes/DiagramaGato.jpg" width="300">
+</div>  
