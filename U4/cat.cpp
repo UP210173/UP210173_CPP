@@ -185,7 +185,7 @@ void juego() // Estructura de procedimiento para jugar
     }
 }
 
-void swap_player_and_marker() // Esta funcion indica el procedimiento del simbolo que usara cada jugador
+void swap_player_and_markerswap_player_and_marker() // Esta funcion indica el procedimiento del simbolo que usara cada jugador
 {
     if (marcador == 'x')
     {

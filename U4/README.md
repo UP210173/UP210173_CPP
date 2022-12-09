@@ -21,36 +21,38 @@
 
 <h2 align="center"><strong><font face="Century Gothic"> INT MAIN ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/main.jpeg" width="300">
+<img src="/U2/U2Imagenes/main.jpeg">
 </div>  
 
 ---  
 
 <h2 align="center"><strong><font face="Century Gothic"> TABLERO ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/tablero.jpeg" width="300">
+<img src="/U2/U2Imagenes/tablero.jpeg">
 </div>  
 
 ---  
 
 <h2 align="center"><strong><font face="Century Gothic"> GANADOR ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/ganador.jpeg" width="300">
+<img src="/U2/U2Imagenes/ganador.jpeg">
 </div>  
 
 ---  
 
-<h2 align="center"><strong><font face="Century Gothic"> SET_MARKER ();</font></strong></h2> 
+<h2 align="center"><strong><font face="Century Gothic"> JUEGO ();</font></strong></h2> 
 <div align = "center">
 <img src="/U2/U2Imagenes/set.jpeg" width="300">
 </div>  
 
----
+---  
 
-<h2 align="center"><strong><font face="Century Gothic"> SET_MARKER ();</font></strong></h2> 
+<h2 align="center"><strong><font face="Century Gothic"> SWAP_PLAYER_ ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/set.jpeg" width="300">
-</div>  
+<img src="/U2/U2Imagenes/swap.jpeg" width="300">
+</div>   
+
+---  
 
 
 ## **Functions**
