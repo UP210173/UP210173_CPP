@@ -42,14 +42,14 @@
 
 <h2 align="center"><strong><font face="Century Gothic"> JUEGO ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/set.jpeg" width="300">
+<img src="/U2/U2Imagenes/1.jpeg" width=>
 </div>  
 
 ---  
 
 <h2 align="center"><strong><font face="Century Gothic"> SWAP_PLAYER_ ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/swap.jpeg" width="300">
+<img src="/U2/U2Imagenes/31.jpeg">
 </div>   
 
 ---  
