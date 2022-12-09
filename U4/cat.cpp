@@ -40,7 +40,7 @@ int main()
     return 0;
 }
 
-void tablero() //Funcion procedimiento para el tablero 
+void tablero() //Funcion procedimiento y/o creacion del tablero 
 {
     cout << " " << board[0][0] << " | " << board[0][1] << " | " << board[0][2] << endl;
     cout << "-----------\n";

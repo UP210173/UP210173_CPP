@@ -18,11 +18,40 @@
 
 ---  
 
+
+<h2 align="center"><strong><font face="Century Gothic"> INT MAIN ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/DiagramaGato.jpg" width="300">
+<img src="/U2/U2Imagenes/main.jpeg" width="300">
 </div>  
 
 ---  
+
+<h2 align="center"><strong><font face="Century Gothic"> TABLERO ();</font></strong></h2> 
+<div align = "center">
+<img src="/U2/U2Imagenes/tablero.jpeg" width="300">
+</div>  
+
+---  
+
+<h2 align="center"><strong><font face="Century Gothic"> GANADOR ();</font></strong></h2> 
+<div align = "center">
+<img src="/U2/U2Imagenes/ganador.jpeg" width="300">
+</div>  
+
+---  
+
+<h2 align="center"><strong><font face="Century Gothic"> SET_MARKER ();</font></strong></h2> 
+<div align = "center">
+<img src="/U2/U2Imagenes/set.jpeg" width="300">
+</div>  
+
+---
+
+<h2 align="center"><strong><font face="Century Gothic"> SET_MARKER ();</font></strong></h2> 
+<div align = "center">
+<img src="/U2/U2Imagenes/set.jpeg" width="300">
+</div>  
+
 
 ## **Functions**
 
