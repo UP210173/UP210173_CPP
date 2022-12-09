@@ -42,7 +42,7 @@
 
 <h2 align="center"><strong><font face="Century Gothic"> JUEGO ();</font></strong></h2> 
 <div align = "center">
-<img src="/U2/U2Imagenes/1.jfif" width=>
+<img src="/U2/U2Imagenes/2.jfif" width=>
 </div>  
 
 ---  
